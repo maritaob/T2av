@@ -23,11 +23,11 @@ EventController
 being using in the study (such as a Kindle or a Digital Camera).  The view will 
 have touch zones that coorespond to the buttons on the device in the image.
 
-   When the user touches one of the zones, this component will generate a data event that is composed
+  When the user touches one of the zones, this component will generate a data event that is composed
 of the current time (received from the TimingModule) and the button cooresponding to the zone 
 that was touched by the user.  
 
-    This component will include a listner interface, which will allow other components to receive the 
+  This component will include a listner interface, which will allow other components to receive the 
 events it generates.
 
 DataAggregator 
@@ -41,7 +41,7 @@ application.  In will register itself as a listener of the EventController so th
 data events.  Upon receiving events, it will append the data contained in the event to the 
 persistence storage mechanism.  
 
-   This component will also contain a mechanism for performing the following actions on the persistent
+  This component will also contain a mechanism for performing the following actions on the persistent
 store.  
     >1.  Clear all data
     >2.  Export all data (possible mechanisms include email, or transfer via usb)
